@@ -1,0 +1,19 @@
+@media screen and (max-width: 1160px) {
+    .container {
+        max-width: 1140px;
+        width: initial;
+    }
+}
+
+/* phone queries */
+@media screen and (max-width: 480px) {
+    
+    .row {
+        flex-wrap: wrap;
+        gap: 64px;
+    }
+
+    .row .col {
+        width: 100%;
+    }
+}
